@@ -1,0 +1,7 @@
+1b113517d1f397842065692cbfd841e7  usr/bin/duck-session
+cc43440e6290d579215fed4e66ef5483  usr/lib/duck-session/duck-session-autostart
+94d9dcdf6f1cc1faa0b7f8374de8344d  usr/lib/duck-session/duck-session-xdg-autostart
+b7435069dbfac3a2fb919c59f5b1b456  usr/share/doc/duck-session/README.Debian
+d656e083253dbd9e5e381a35007d5a64  usr/share/doc/duck-session/changelog.Debian.gz
+3c1493f76331c40b5510cf75de12d871  usr/share/doc/duck-session/copyright
+f4753015d1f090c6da369126d3bad1a8  usr/share/xsessions/duck-session.desktop

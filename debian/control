@@ -1,0 +1,15 @@
+Source: duck-session
+Section: unknown
+Priority: extra
+Maintainer: Mark Spurgeon <theduck.dev@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/duck-session.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/duck-session.git;a=summary
+
+Package: duck-session
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
