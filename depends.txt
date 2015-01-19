@@ -1,0 +1,10 @@
+openbox #wm
+nitrogen #wallpaper
+xfce4-volumed #sound
+xfce4-power-manager #power
+thunar #file-manager, might change
+xscreensaver #
+
+
+duck-launcher 
+duck-panel

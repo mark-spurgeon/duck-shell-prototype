@@ -10,6 +10,6 @@ Homepage: <insert the upstream URL, if relevant>
 
 Package: duck-session
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends},openbox,xfce4-volumed,xfce4-power-manager,thunar,xscreensaver
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
