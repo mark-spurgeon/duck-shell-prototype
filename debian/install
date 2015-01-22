@@ -1,4 +1,4 @@
 /usr/lib/duck-session/* /usr/lib/duck-session
 /usr/share/xsessions/duck-session.desktop  /usr/share/xsessions
-/bin/duck-session /usr/bin
+/bin/* /usr/bin
 /etc/xdg/duck-session/* /etc/xdg/duck-session

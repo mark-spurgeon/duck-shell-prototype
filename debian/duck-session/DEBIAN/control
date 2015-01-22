@@ -2,7 +2,8 @@ Package: duck-session
 Version: 0.1-1
 Architecture: amd64
 Maintainer: Mark Spurgeon <theduck.dev@gmail.com>
-Installed-Size: 108
+Installed-Size: 111
+Depends: openbox, xfce4-volumed, xfce4-power-manager, thunar, xscreensaver
 Section: unknown
 Priority: extra
 Homepage: <insert the upstream URL, if relevant>

@@ -24,9 +24,10 @@ eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
 hsetroot -solid "#2E3436" &
 (\
 nitrogen --restore && \
-compton && \
 sleep 1s && \
-duck-launcher \
+compton --config /etc/xdg/duck-session/compton.conf && \
+duck-launcher && \
+duck-panel \
 ) &
 
 ## Volume control for systray
@@ -55,14 +56,10 @@ xscreensaver -no-splash &
 
 ## Set keyboard settings - 250 ms delay and 25 cps (characters per second) repeat rate.
 ## Adjust the values according to your preferances.
-xset r rate 250 25 &
+xset r rate 350 25 &
 
 ## Turn on/off system beep
-xset b off &
-
-## The following command runs hacks and fixes for #! LiveCD sessions.
-## Safe to delete after installation.
-cb-cowpowers &
+#xset b off &
 
 ## cb-welcome - post-installation script, will not run in a live session and
 ## only runs once. Safe to remove.
@@ -72,6 +69,4 @@ cb-cowpowers &
 #(sleep 120s && cb-fortune) &
 
 ## Run the conky
-conky -q &
-
-duck-panel &
+#conky -q &
